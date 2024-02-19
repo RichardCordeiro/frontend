@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Protifólio aula html5">
+    <meta name="author" content="Richard Cordeiro">
+    <meta name="keywords" content="currículo, emprego, serviço">
+    <link rel="shortcut icon" href="src/img/favicon.ico">
+    <link rel="stylesheet" href="src/css/resetcss.css">
+    <title>Portifólio Richard Cordeiro</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        body{
+            background-color: #5b5b5c;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+            background-image: url();
+        }
+
+        header{
+            margin-bottom: 40px;
+        }
+        header h1{
+            color: white;
+            font-family: 'Fredoka One', cursive;
+            font-size: 55px;
+            text-align: center;
+            text-shadow: 3px 3px 4px #000;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        header figure{
+            border: 1px solid #000;
+            width: 250px;
+            height: 250px;
+            border-radius: 125px;
+            margin: 0 auto;
+            overflow: hidden;
+            box-shadow: 1px 1px 7px #000;
+        }
+        header figure img{
+            width: 250px;
+        }
+
+        header nav{
+            text-align: center;
+        }
+
+        header nav a{
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        header nav a:hover{
+            background-color: black;
+            text-decoration: underline;
+            font-family: "Roboto", sans-serif;
+        }
+
+        section,footer,aside{
+            width: 70%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+            background-color: rgba(207, 198, 198, 0.699);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="src/img/mamute.jpg" alt="">
+        </figure>
+        <h1>Richard Leonardo Cordeiro</h1>
+        <nav>
+            <a href="#dados-pessoais">Dados Pessoais</a>
+            <a href="#historico-acad">Histórico Acadêmico</a>
+            <a href="#historico-prof">Histórico Profissional</a>
+            <a href="#objetivo">Objetivo</a>
+        </nav>
+    </header>
+    <section id="dados-pessoais">
+        <h2>Dados Pessoais</h2>
+        <ul>
+            <li>
+                <p><strong>Email: </strong><a
+                        href="mailto:richard.leocordeiro@hotmail.com">richard.leocordeiro@hotmail.com</a></p>
+            </li>
+            <li>
+                <p><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/richard-leonardo-cordeiro-166b5624b/"
+                        target="_blank">Richard Leonardo Cordeiro</a></p>
+            </li>
+        </ul>
+    </section>
+    <section id="historico-acad">
+        <h2>Histórico Acadêmico</h2>
+        <h3>Cursos</h3>
+        <ul>
+            <p>
+                <li>Técnico Automação Industrial - ETEC</li>
+            </p>
+            <p>
+                <li>Técnico Desenvolvimento de Sistemas - ETEC</li>
+            </p>
+            <p>
+                <li>Técnico Informática - Senac</li>
+            </p>
+        </ul>
+    </section>
+    <section id="historico-prof">
+        <h2>Histórico Profissional</h2>
+        <p>Aprendiz - Embraer</p>
+    </section>
+    <section id="Objetivo">
+        <h2>Objetivo</h2>
+        <p>Desenvolvedor WEB</p>
+    </section>
+
+    <aside>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8en9lAfU580?si=gwMnIp4nHx90dLPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </aside>
+    <footer>
+        &COPY; Todos os direitos reservados
+    </footer>
+</body>
+
+</html>
