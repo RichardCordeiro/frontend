@@ -1,0 +1,27 @@
+table,tr,td,th {
+    border: 1px solid #000000; 
+    margin:0 auto;
+    width: 400px;
+    margin-top: 10%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #0070c0;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #cce0f5;
+}
+
+tfoot td{
+    font-size: 25px;
+    background-color: #0070c0;
+    color: white;
+    text-align: center;
+}

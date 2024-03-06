@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exemplo Formulários</title>
+</head>
+
+<body>
+    <form id="ex-form" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+            <label for="tel">Telefone: </label>
+            <input type="email" name="tel" id="tel" placeholder="Digite seu telefone" required>
+            <label for="nasc">Data de Nascimento</label>
+            <input type="date" name="nasc" id="nasc" required>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label for="logradouro">Logradouro:</label>
+            <input type="text" id="logradouro" name="logradouro" required>
+
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero" required>
+
+            <label for="complemento">Complemento:</label>
+            <input type="text" id="complemento" name="complemento">
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro" required><br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required>
+
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado" required>
+                <option value="null">-- Selecione algum estado --</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="sexo">Masculino: </label>
+            <input type="radio" name="sexo" id="M" required>
+            <label for="sexo">Feminino: </label>
+            <input type="radio" name="sexo" id="F" required><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>CNH</legend>
+
+            <label for="a">A</label>
+            <input type="checkbox" id="a" name="A" value="A">
+
+            <label for="b">B</label><input type="checkbox" id="b" name="B" value="B">
+
+            <label for="c">C</label><input type="checkbox" id="c" name="C" value="C">
+
+            <label for="d">D</label><input type="checkbox" id="d" name="D" value="D">
+
+            <label for="e">E</label><input type="checkbox" id="e" name="E" value="E">
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações Extras</legend>
+            <textarea name="information" id="" cols="100" rows="10" style="resize: none;"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Botões</legend>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
