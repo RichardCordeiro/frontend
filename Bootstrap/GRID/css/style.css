@@ -1,0 +1,19 @@
+body{
+    background-color: darkgreen;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main{
+    background-color: #fff;
+    min-height: 10vh;
+}
+
+header{
+    margin: 2vh auto;
+}
+
+nav, main{
+    min-height: 85vh;
+}
